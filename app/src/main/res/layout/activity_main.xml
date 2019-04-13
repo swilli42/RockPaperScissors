@@ -133,13 +133,13 @@
                     android:orientation="horizontal">
 
                     <EditText
-                        android:id="@+id/Input1ET"
+                        android:id="@+id/input1ET"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Name" />
+                        tools:text="Input1" />
 
                     <EditText
                         android:id="@+id/input2ET"
@@ -148,7 +148,7 @@
                         android:layout_weight="1"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Name" />
+                        tools:text="Input2" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -157,7 +157,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/outputET"
+                        android:id="@+id/outputTV"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
